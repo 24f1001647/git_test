@@ -27,7 +27,7 @@ jobs:
             cache-8c089d3
 
       # Prime the cache
-      - name: Prime-cache-8c089d3
+      - name: prime-cache-8c089d3
         id: prime-cache-8c089d3
         run: |
           if [ -n "${{ steps.cache-deps.outputs.cache-hit }}" ]; then
